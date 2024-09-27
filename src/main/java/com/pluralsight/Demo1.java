@@ -17,8 +17,10 @@ public class Demo1 {
         int minutesPerDayOnDayWatchOnAverage = 70;
 
         int minutesPerWeek = numberOfDaysPerWeekWatchesTV * minutesPerDayOnDayWatchOnAverage;
-        int minutesPerYear = minutesPerWeek * 52;
+       //int minutesPerWeek = 5 * 70;
+        // int minutesPerWeek = 350;
 
+        int minutesPerYear = minutesPerWeek * 52;
         int hoursPerYear = minutesPerYear / 60;
 
         int hoursInWorkWeek = 35;
